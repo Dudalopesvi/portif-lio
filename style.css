@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(117, 167, 233, 0.527); /* A página toda terá fundo cinza claro */
+  }
+
+
+.apresentação {
+  
+    margin-top: 5px; /* Reduz o espaço superior */
+    margin-bottom: 2px; /* Reduz o espaço inferior */
+    line-height: 1.4; /* Ajusta o espaçamento entre linhas (se necessário) */    
+    font-family: Verdana, sans-serif	
+}
+
+.título {
+    font-family:Avantgarde,TeX Gyre Adventor,URW Gothic L, sans-serif;
+}
+
+
+.projetos {
+    background-color: rgba(167, 117, 248, 0.534); 
+
+    justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
+    gap: 20px; /* Adiciona um espaço entre os botões */
+    width: 100px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    /* Outras propriedades para o botão */
+    padding: 5px 2px;
+    border: 1px solid #431c9e;
+    cursor: pointer;
+    font-family:Verdana, sans-serif	
+}
+
+.contato {
+    background-color: rgba(167, 117, 248, 0.534); 
+    justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
+    gap: 4px; /* Adiciona um espaço entre os botões */
+    width: 100px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    padding: 5px 5px;
+    border: 1px solid #431c9e;
+    cursor: pointer;
+    font-family:Verdana, sans-serif
+}
+
