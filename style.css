@@ -13,9 +13,14 @@ body {
 
 .título {
     font-family:Avantgarde,TeX Gyre Adventor,URW Gothi, sans-serif;
-   
+ 
 }
-
+.imagem {
+    background: linear-gradient(0,0,0,5);
+    
+    width: 20%;
+    height: 30%;
+}
 
 .Projetos {
     background-color: rgba(7, 190, 99, 0.979); 
