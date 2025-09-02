@@ -12,34 +12,37 @@ body {
 }
 
 .título {
-    font-family:Avantgarde,TeX Gyre Adventor,URW Gothic L, sans-serif;
+    font-family:Avantgarde,TeX Gyre Adventor,URW Gothi, sans-serif;
+   
 }
 
 
-.projetos {
-    background-color: rgba(167, 117, 248, 0.534); 
+.Projetos {
+    background-color: rgba(7, 190, 99, 0.979); 
 
     justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
-    gap: 20px; /* Adiciona um espaço entre os botões */
+    display: flex;
+    gap: 30px; /* Adiciona um espaço entre os botões */
     width: 100px; /* Define a largura do botão */
-    height: 50px; /* Define a altura do botão */
-    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    height: 40px; /* Define a altura do botão */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
     /* Outras propriedades para o botão */
     padding: 5px 2px;
-    border: 1px solid #431c9e;
+    border: 1px solid #0c0f0c;
     cursor: pointer;
     font-family:Verdana, sans-serif	
 }
 
-.contato {
-    background-color: rgba(167, 117, 248, 0.534); 
+.Contato {
+    background-color: rgba(116, 207, 94, 0.534); 
+    display: flex;
     justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
-    gap: 4px; /* Adiciona um espaço entre os botões */
+    gap: 30px; /* Adiciona um espaço entre os botões */
     width: 100px; /* Define a largura do botão */
-    height: 50px; /* Define a altura do botão */
-    font-size: 1.2em; /* Aumenta o tamanho da fonte */
-    padding: 5px 5px;
-    border: 1px solid #431c9e;
+    height: 40px; /* Define a altura do botão */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    padding: 5px 2px;
+    border: 1px solid #122910;
     cursor: pointer;
     font-family:Verdana, sans-serif
 }
