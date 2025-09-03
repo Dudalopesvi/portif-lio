@@ -1,54 +1,77 @@
 body {
-    background-color: rgba(117, 167, 233, 0.527); /* A página toda terá fundo cinza claro */
-  }
+    background-color: rgba(117, 167, 233, 0.527);
+    /* A página toda terá fundo cinza claro */
+}
 
 
 .apresentação {
-  
-    margin-top: 5px; /* Reduz o espaço superior */
-    margin-bottom: 2px; /* Reduz o espaço inferior */
-    line-height: 1.4; /* Ajusta o espaçamento entre linhas (se necessário) */    
-    font-family: Verdana, sans-serif	
+
+    margin-top: 5px;
+    /* Reduz o espaço superior */
+    margin-bottom: 2px;
+    /* Reduz o espaço inferior */
+    line-height: 1.4;
+    /* Ajusta o espaçamento entre linhas (se necessário) */
+    font-family: Verdana, sans-serif
 }
 
 .título {
-    font-family:Avantgarde,TeX Gyre Adventor,URW Gothi, sans-serif;
- 
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothi, sans-serif;
+
 }
+
 .imagem {
-    background: linear-gradient(0,0,0,5);
-    
-    width: 20%;
-    height: 30%;
+    background: linear-gradient(0, 0, 0, 5);
+    float: inline-end; 
+    width: 200px;
+    /* Ajuste o tamanho da imagem */
+    height: 260px;
+    /* Ajuste o tamanho da imagem */
+    border-radius: 30%;
+    /* Torna a borda completamente circular */
+    border: 2px solid #5779c0;
+    /* Adiciona uma borda ao redor */
+    object-fit: cover;
+    /* Garante que a imagem se ajuste ao contêiner */
+    margin-left: 10px
 }
 
 .Projetos {
-    background-color: rgba(7, 190, 99, 0.979); 
+    background-color: rgba(7, 190, 99, 0.979);
 
-    justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
+    justify-content: fle;
+    /* Centraliza os botões (ou use flex-start, flex-end) */
     display: flex;
-    gap: 30px; /* Adiciona um espaço entre os botões */
-    width: 100px; /* Define a largura do botão */
-    height: 40px; /* Define a altura do botão */
-    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    gap: 20px;
+    /* Adiciona um espaço entre os botões */
+    width: 100px;
+    /* Define a largura do botão */
+    height: 40px;
+    /* Define a altura do botão */
+    font-size: 1.1em;
+    /* Aumenta o tamanho da fonte */
     /* Outras propriedades para o botão */
-    padding: 5px 2px;
-    border: 1px solid #0c0f0c;
+    padding: 1.5px px;
+    border: px solid #0c0f0c;
     cursor: pointer;
-    font-family:Verdana, sans-serif	
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .Contato {
-    background-color: rgba(116, 207, 94, 0.534); 
+    background-color: rgba(116, 207, 94, 0.534);
     display: flex;
-    justify-content: center; /* Centraliza os botões (ou use flex-start, flex-end) */
-    gap: 30px; /* Adiciona um espaço entre os botões */
-    width: 100px; /* Define a largura do botão */
-    height: 40px; /* Define a altura do botão */
-    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    justify-content: center;
+    /* Centraliza os botões (ou use flex-start, flex-end) */
+    gap: 30px;
+    /* Adiciona um espaço entre os botões */
+    width: 100px;
+    /* Define a largura do botão */
+    height: 40px;
+    /* Define a altura do botão */
+    font-size: 1.1em;
+    /* Aumenta o tamanho da fonte */
     padding: 5px 2px;
     border: 1px solid #122910;
     cursor: pointer;
-    font-family:Verdana, sans-serif
+    font-family: Verdana, sans-serif
 }
-
