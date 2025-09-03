@@ -5,8 +5,8 @@ body {
 
 
 .apresentação {
-
-    margin-top: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
     /* Reduz o espaço superior */
     margin-bottom: 2px;
     /* Reduz o espaço inferior */
@@ -23,23 +23,26 @@ body {
 .imagem {
     background: linear-gradient(0, 0, 0, 5);
     float: inline-end; 
-    width: 200px;
+    width: 460px;
     /* Ajuste o tamanho da imagem */
-    height: 260px;
+    height:600px;
     /* Ajuste o tamanho da imagem */
-    border-radius: 30%;
+    border-radius: 6%;
     /* Torna a borda completamente circular */
     border: 2px solid #5779c0;
     /* Adiciona uma borda ao redor */
     object-fit: cover;
     /* Garante que a imagem se ajuste ao contêiner */
-    margin-left: 10px
+    margin-top: -180px; 
+    margin-right: 170px; 
+    margin-left: 50px;
+    
 }
 
 .Projetos {
-    background-color: rgba(7, 190, 99, 0.979);
+    background-color: rgba(238, 217, 99, 0.979);
 
-    justify-content: fle;
+    justify-content: center;
     /* Centraliza os botões (ou use flex-start, flex-end) */
     display: flex;
     gap: 20px;
@@ -56,6 +59,29 @@ body {
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif
 }
+
+.habilidades  {
+    
+}
+
+
+
+
+
+
+
+
+.i {
+width: 80px; ;
+}
+
+
+
+
+
+
+
+
 
 .Contato {
     background-color: rgba(116, 207, 94, 0.534);
