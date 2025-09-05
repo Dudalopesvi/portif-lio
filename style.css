@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    height: 100vh;
+background: url(https://images.vexels.com/media/users/3/76186/raw/6a6af017f251ed81ccdc53caecab3bb2-fundo-de-vetor-azul-minimalista.jpg)no-repeat center /cover ;
+}
+
+
+.container {
+    position: relative;
+    height: 100%;
+    background: seagreen;
+}
