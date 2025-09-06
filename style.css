@@ -84,27 +84,27 @@ header {
 }
 
 .btn {
-display: inline-block;
-padding: 10px 30px;
-background: aliceblue;
-border: 2px solid aliceblue;
-border-radius: 40px;
-box-shadow: 0 0 10px aliceblue;
-color: #333;
-text-decoration: none;
-font-weight: 500;
-transition: .5s;
+    display: inline-block;
+    padding: 10px 30px;
+    background: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 40px;
+    box-shadow: 0 0 10px aliceblue;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
 }
 
 
 .btn:hover {
-    background:transparent ;
-box-shadow: none;
-color: aliceblue;
+    background: transparent;
+    box-shadow: none;
+    color: aliceblue;
 }
 
 .home-detail .social-icons {
-margin: 20px;
+    margin: 20px;
 }
 
 .home-detail .social-icons a {
