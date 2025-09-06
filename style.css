@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: url(https://images.vexels.com/media/users/3/76186/raw/6a6af017f251ed81ccdc53caecab3bb2-fundo-de-vetor-azul-minimalista.jpg)no-repeat center /cover;
+    background: url(https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-realista-de-fumaca-de-cor-azul-em-fundo-preto_732449-5624.jpg)no-repeat center /cover;
     padding: 50px 5%;
 }
 
@@ -16,8 +16,11 @@ body {
 .container {
     position: relative;
     height: 100%;
-    background: seagreen;
+    background: rgba(225, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
+    backdrop-filter: blur(30px);
+
 }
 
 header {
@@ -113,4 +116,34 @@ header {
     border: 2px solid aliceblue;
     border-radius: 50%;
     font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 8px;
+transition: .5s;
+}
+
+.home-detail .social-icons a:hover {
+    background: aliceblue;
+    box-shadow: 0 0 10px aliceblue;
+    color: aliceblue;
+}
+
+
+.home-img .img-box {
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    box-shadow: 0 0 20px aliceblue;
+    overflow: hidden;
+   
+}
+
+.home-img .img-box img {
+    position: absolute;
+    top: 0px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
